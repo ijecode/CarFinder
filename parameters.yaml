@@ -1,0 +1,17 @@
+searchCriteria:
+  postcode: BH10 7HD
+  distance: max # Measured in miles
+  make: any
+  priceMin: 0
+  priceMax: 1500
+  transmission: automatic  # Accepted values: auto, manual or any
+sites:
+  autotrader: true
+  gumtree: true
+  ebay: true
+notifications:
+  pushover: 
+    enabled: false
+    userKey: your_key_here
+    apiKey: your_key_here
+  windows: false
