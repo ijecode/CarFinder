@@ -3,7 +3,7 @@ import urllib.request
 
 def scrape(urls, db):
     newCars = []
-
+    print(urls)
     if 'autotrader' in urls:
         newCars += scrapeAutoTrader(urls['autotrader'], db)
     if 'gumtree' in urls:
@@ -12,7 +12,6 @@ def scrape(urls, db):
     return newCars
 
 def scrapeGumTree(url, db):
-    print('scraping gumtree')
     newCars = []
 
     try:
